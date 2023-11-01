@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lora&family=Roboto:wght@300&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+    <link href="styles.css" rel="stylesheet" />
+    <title>Solaris</title>
+  </head>
+  <body>
+    <header class="primary-heading">
+      <h1>SOLSYSTEMET</h1>
+      <h2>SOLARIS</h2>
+    </header>
+    <section class="container">
+      <div class="sun"></div>
+      <div class="sun-shadow1 hidden"></div>
+      <div class="sun-shadow2 hidden"></div>
+      <div class="planet-container">
+        <svg
+          width="1169"
+          height="188"
+          viewBox="0 0 1169 188"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            class="planet"
+            id="p1"
+            cx="7"
+            cy="94"
+            r="7"
+            fill="rgba(136, 136, 136, 1)"
+          />
+          <circle
+            class="planet"
+            id="p2"
+            cx="90"
+            cy="94"
+            r="13"
+            fill="rgb(231, 205, 205)"
+          />
+          <circle
+            class="planet"
+            id="p3"
+            cx="186"
+            cy="94"
+            r="14"
+            fill="rgb(66, 142, 213)"
+          />
+          <circle
+            class="planet"
+            id="p4 "
+            cx="277"
+            cy="94"
+            r="7"
+            fill="rgb(239, 95, 95)"
+          />
+          <circle
+            class="planet"
+            id="p5"
+            cx="467"
+            cy="94"
+            r="94"
+            fill="#E29468"
+          />
+          <circle
+            class="planet"
+            id="p6"
+            cx="744"
+            cy="94"
+            r="72"
+            fill="#C7AA72"
+          />
+          <ellipse
+            class="planet"
+            id="p6"
+            cx="744"
+            cy="94"
+            rx="109.116"
+            ry="2.75039"
+            transform="rotate(-30 744 94)"
+            fill="white"
+            fill-opacity="0.4"
+          />
+          <circle
+            class="planet"
+            id="p7"
+            cx="966"
+            cy="94"
+            r="33"
+            fill="#C9D4F1"
+          />
+          <circle
+            class="planet"
+            id="p8"
+            cx="1136"
+            cy="94"
+            r="33"
+            fill="#7A91A7"
+          />
+        </svg>
+      </div>
+    </section>
+    <div class="modal hidden">
+      <div class="info-container">
+        <h1 class="name">JORDEN</h1>
+        <h2 class="latin-name">TELLUS</h2>
+        <p class="description"></p>
+        <hr class="solid" />
+        <ul class="list">
+          <!--     <li class="item">OMKRETS<span class="span-item"></span></li>
+          <li class="item">KM FRÅN SOLEN<span class="span-item"></span></li>
+          <li class="item">MAX TEMPERATUR<span class="span-item"></span></li>
+          <li class="item">MIN TEMPERATUR<span class="span-item"></span></li> -->
+        </ul>
+        <hr class="solid" />
+        <ul class="list">
+          <!--   <li class="item">MÅNAR<span class="span-item"></span></li> -->
+        </ul>
+      </div>
+    </div>
+
+    <div class="overlay hidden"></div>
+  </body>
+</html>
