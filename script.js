@@ -71,8 +71,13 @@ async function upDateUi(planetId) {
   upDateList(selectedPlanet, distance, circumference);
 }
 
-/* SUN SHADOWS WHEN PLANET IS CLICKED */
+/* SUN SHADOWS WHEN PLANET OR THE SUN IS CLICKED */
 function sunShadow(planetId) {
+  if (planetId == 0) {
+    sun.style.backgroundColor = '#ffd029';
+    shadow1.style.backgroundColor = '#ffd029';
+    shadow2.style.backgroundColor = '#ffd029';
+  }
   const selectedColor = planetColors[planetId - 1];
   sun.style.backgroundColor = selectedColor;
   shadow1.style.backgroundColor = selectedColor;
