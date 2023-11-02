@@ -27,7 +27,7 @@ const fetchApiKey = async () => {
   }
 };
 
-/* HÄMTA DATA BODIES */
+/* HÄMTAR DATA BODIES */
 const fetchBodies = async () => {
   try {
     let apiKeyResponse = await fetchApiKey();
